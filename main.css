@@ -6,7 +6,7 @@
 
 /* logo*/
 .logo {
-    color : rgb(159,185,255);
+        color : rgb(159,185,255);
 }
 
 /* main mune */
@@ -19,16 +19,52 @@ ul {
     background: rgb(49,49,49);
     list-style: none;
 }
-
 ul li {
        float: left;
        margin-right: 10px;
 }
-
-ul li a{
-    color: rgb(255,255,255);
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
+ul li a {
+        color: rgb(255,255,255);
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
 }
 
+/* article background */
+.article-background1{
+    height: 300px;
+    padding: 15px;
+    background-color: rgb(104,104,175);
+    text-align: center;
+    
+}
+
+/* box model test*/
+.box1 {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    border: 10px solid black;
+}
+.box2 {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    border: 10px dotted black;
+    border-radius: 25px;
+}
+.box3 {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    box-shadow: 10px 10px 5px 5px black;
+}
