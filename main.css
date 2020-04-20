@@ -1,5 +1,5 @@
 /*
-    * File Name : index.html v0.3.0
+    * File Name : index.html v0.5.0
     * Update : 2020.04.20
     * Author : decelopern
 */
@@ -31,6 +31,7 @@ ul li a {
 }
 
 /* article background */
+
 .article-background1{
     height: 300px;
     padding: 15px;
@@ -38,14 +39,28 @@ ul li a {
     text-align: center;
     
 }
-
 .article-background2{
-    height: 550px;
+    height: 650px;
     padding: 15px;
     background-color: rgba(253, 245, 167, 0.897);
     text-align: center;
     
 }
+.article-background3{
+    height: 450px;
+    padding: 15px;
+    background-color: rgba(216, 203, 88, 0.774);
+    text-align: center;
+    
+}
+.article-background4{
+    height: 450px;
+    padding: 15px;
+    background-color: rgba(238, 229, 146, 0.774);
+    text-align: center;
+    
+}
+
 
 /* box model test*/
 .box1 {
