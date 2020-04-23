@@ -1,6 +1,6 @@
 /*
-    * File Name : index.html v0.5.0
-    * Update : 2020.04.20
+    * File Name : index.html v0.6.0
+    * Update : 2020.04.23
     * Author : decelopern
 */
 
@@ -61,6 +61,14 @@ ul li a {
     
 }
 
+.article-background5{
+    height: 450px;
+    padding: 15px;
+    background-color: rgba(211, 211, 211, 0.774);
+    text-align: center;
+    margin: auto;
+    
+}
 
 /* box model test*/
 .box1 {
@@ -113,4 +121,32 @@ ul li a {
 }
 .b-radius4 {
     border-radius: 100%;
+}
+
+/* 테이블 태그 연습*/
+.table1{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+thead, tbody, th,tr,td{
+    border: 1px solid black;
+    
+}
+
+.table1-thead1{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+.table1-tbody{
+    padding: 10px;
+}
+.table1-tfoot1{
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
 }
