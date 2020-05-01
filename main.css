@@ -30,6 +30,15 @@ ul li a {
         text-decoration: none;
 }
 
+/* Web font 적용*/
+ .menu > li > a {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+
+ }
 /* article background */
 
 .article-background1{
