@@ -1,5 +1,7 @@
 # Projet2020 - 배종범
 
+## 5월1일 그리드 속성 연습
+rows/column를 이용한 셀 확장 연습
 ## 04월 23일 테이블 태그 연습
 table,tr,td,td, thead,tbody,tfoot 태그 연습<br>
 colspan / rowspan 속성 연습<br>
