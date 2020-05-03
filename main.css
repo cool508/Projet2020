@@ -11,7 +11,7 @@
 }
 /* header full screen background */
 .full-bg{
-    background: url(./images/모허절벽5.jpg);
+    background: url(./images/fbg.jpg);
    /*parallax scrolling 적용*/
     background-size: cover;
     background-attachment: fixed;
