@@ -1,6 +1,6 @@
 <!--
-    * File Name : index.html v0.6.8
-    * Update : 2020.05.02
+    * File Name : index.html v0.7.0
+    * Update : 2020.05.12
     * Author : decelopern
 -->
 <!DOCTYPE html> 
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>배종범의 홈페이지</title>
     <!-- CSS 초기화 / nomalize.css-->
-    <link rel ="stylesheet" href="./vedor/normalize.css">
+    <link rel ="stylesheet" href="./vendor/normalize.css">
     <!-- CSS의 외부 적용 방식-->
     <link rel ="stylesheet" href="main.css">
     <!-- 구글 웹폰트 적용방식(CDM)-->
@@ -20,14 +20,26 @@
 </head>
 <body>
     <header class="full-bg">
-        <div class="header-txtbox">
-            <div class="header-txt"> 배종범 <br>홈페이지</div>
+        <div class="header-title-box">
+            <div class="header-title">배종범
+                <p class="header-subtitle">홈페이지</p>
+            </div>
+            <div class="gb-box"><a href="#" class="ghost-button">Button</a></div>
         </div>
-        <div class="gb-box"><a href="#" class="ghost-button">Button</a></div>
     </header>        
     <nav>
         <ul class="menu">
             <li class ="logo">배종범</li>
+            <li class="onepage"><a href="#">Onepage</a>
+                <ul>
+                    <li><a href="#">박스모델</a></li>
+                    <li><a href="#">img 태그</a></li>
+                    <li><a href="#">video,audio 태그</a></li>
+                    <li><a href="#">유튜브 영상 삽입</a></li>
+                    <li><a href="#">테이블 삽입</a></li>
+                    <li><a href="#">그리드 </a></li>
+                </ul>
+            </li>
             <li><a href="#">메뉴1</a></li>
             <li><a href="#">메뉴2</a></li>
             <li><a href="#">메뉴3</a></li>    
@@ -134,6 +146,6 @@
 
 
     <aside>어사이드 내용</aside>
-    <footer>풋터에 들어갈 내용</footer>
+    <footer>배종범 Copyrigt  &copy; 201640218</footer>
 </body>
 </html>
