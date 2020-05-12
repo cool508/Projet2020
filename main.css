@@ -1,14 +1,18 @@
 /*
 
-    * File Name : index.html v0.6.8
-    * Update : 2020.05.02
+    * File Name : index.html v0.6.9
+    * Update : 2020.05.12
 
 */
 
 /* logo*/
 .logo {
         color : rgb(159,185,255);
+        font-family: 'East Sea Dokdo', cursive;
+        font-size: 25px;
 }
+
+
 /* header full screen background */
 .full-bg{
     background: url(./images/fbg.jpg);
@@ -68,6 +72,13 @@
  }
 
 /* main mune */
+.menu{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    /*fix top menu*/
+}
+
 
 ul {
     width: 100%;
@@ -86,6 +97,21 @@ ul li a {
         font-size: 20px;
         font-weight: bold;
         text-decoration: none;
+}
+/* dropdown menu */
+.menu li ul{
+    background: rgb(49,49,49);
+    display:none;   
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:150px;
+    z-index:20;
+}
+.menu li :hover ul{
+    display: block;
 }
 
 /* article background */
@@ -251,6 +277,10 @@ thead, tbody, th,tr,td{
     grid-column: 2/4;
     grid-row: 3/4;
     background-color:rgb(204, 243, 125);
+}
+/*aside*/
+aside{
+    display: none;
 }
 /*footer*/
 footer{
