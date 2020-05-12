@@ -252,3 +252,10 @@ thead, tbody, th,tr,td{
     grid-row: 3/4;
     background-color:rgb(204, 243, 125);
 }
+/*footer*/
+footer{
+    background-color: grey;
+    font-size: smaller;
+    text-align: center;
+
+}
