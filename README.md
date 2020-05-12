@@ -1,8 +1,10 @@
 # Projet2020 - 배종범
 
-## 5월12일 메뉴, Copyright 추가
-footer 에 copyright 내용 추가
-
+## 5월12일 메뉴, Copyright
+footer 에 copyright 내용 추가 <br>
+Fixed top 메뉴바 <br>
+dropdown menu 설정 <br>
+header title/ghost bt 위치 수정 <br>
 
 ## 5월2일 고스트버튼 풀스크린 백그라운드 설정
 고스트 버튼 삽입
