@@ -1,5 +1,15 @@
 # Projet2020 - 배종범
 
+## 5월 19일 Bootstrap 페이지
+Carousel 기능 연습<br>
+Navbar 생성 연습<br>
+Alert 기능 추가 연습<br>
+Button 기능 추가 연습<br>
+Collpas 기능 추가 연습<br>
+Form 추가 연습<br>
+Modal 추가 연습<br>
+Tooltip 추가 연습<br>
+Icon/SVG 추가 연습<br>
 ## 5월12일 메뉴, Copyright
 footer 에 copyright 내용 추가 <br>
 Fixed top 메뉴바 <br>
