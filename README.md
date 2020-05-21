@@ -1,7 +1,5 @@
 # Projet2020 - 배종범
 
-## 5월19일 Bootstrap
-부트스트랩 페이지 추가<br>
 ## 5월12일 메뉴, Copyright
 footer 에 copyright 내용 추가 <br>
 Fixed top 메뉴바 <br>
