@@ -1,0 +1,63 @@
+.width-50 {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.Copyright{
+    background-color: grey;
+    font-size: smaller;
+    text-align: center;       
+}
+.img-icon-svg{
+    width: 10%;
+    height: 10%;
+}
+.svg-size{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.aside-QnA{
+    
+    display: inline-block;
+    border: goldenrod solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* article background */
+.article-bg-Alert{
+    background-color: wheat;
+    text-align: center;
+}
+.article-bg-Button{
+    background-color: rosybrown;
+    text-align: center;
+}
+.article-bg-Collpas{
+    background-color: white;
+    text-align: center;
+}
+.article-bg-Form{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+.article-bg-Modal{
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+}
+.article-bg-Tooltip{
+    background-color: salmon;
+    text-align: center;
+    padding: 10px
+}
+.article-bg-Icon{
+    background-color: sandybrown;
+    text-align: center;
+}
+.article-bg-Svg{
+    background-color: seashell;
+    text-align: center;
+}
