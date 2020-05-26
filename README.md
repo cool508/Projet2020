@@ -1,4 +1,7 @@
 # Projet2020 - 배종범
+## 5월 26일 Bootstrap 페이지  수정
+피드백 및 수정<br>
+메뉴1/ Icon,svg margin 설정<br>
 
 ## 5월 19일 Bootstrap 페이지
 Carousel 기능 연습<br>
