@@ -1,7 +1,7 @@
 /*
 
-    * File Name : Bootstrap1.html v0.1.0
-    * Update : 2020.05.19
+    * File Name : Bootstrap1.html v0.1.1
+    * Update : 2020.05.26
 
 */
 
@@ -19,11 +19,12 @@
 .img-icon-svg{
     width: 10%;
     height: 10%;
+    margin: auto;
 }
 .svg-size{
     width: 100px;
     height: 100px;
-    margin: 10px;
+    margin: auto;
 }
 .aside-QnA{
     
@@ -31,6 +32,12 @@
     border: goldenrod solid;
     margin: 10px;
     padding: 10px;
+}
+
+.navbar-fixed-top{
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 /* article background */
@@ -68,4 +75,6 @@
 .article-bg-Svg{
     background-color: seashell;
     text-align: center;
+    height: 300px;
+
 }
