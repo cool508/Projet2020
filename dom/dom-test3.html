@@ -1,0 +1,35 @@
+<!--
+    * File Name : bootstrap.html v0.1.0
+    * Update : 2020.05.26
+    * Author : decelopern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel ="stylesheet" href="./vendor/normalize.css">
+    <!-- document.querySelectorAll( ) 실습. for문을 이용한 문서 객체의 조작. -->
+    <meta charset="8">
+    <meta name="viewport" content="widch=device-width, initiai-scale-1.0">
+    <meta http-equiv="X-UA-Compatible"  content="ie=edge">
+    <title>dom-test3</title>
+    <script>
+        window.onload = function(){
+           var headers = document.querySelectorAll('h1');
+           for (var i =0; i < headers.length; i++){
+                var header = headers[i];
+                header.style.color = 'yellow';
+                header.style.background = 'black';
+                header.innerHTML='엘리먼트 다중 선택'
+           }
+        };
+    </script>
+</head>
+
+<body>
+    <h1 ></h1>
+    <h1 ></h1>
+    <h1 ></h1>
+
+</body>
+</html>
