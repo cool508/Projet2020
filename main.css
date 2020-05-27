@@ -103,20 +103,20 @@ ul li a {
         text-decoration: none;
 }
 /* dropdown menu */
-.onepage{
+.dropdown{
     text-align: center;
 }
-.onepage ul{
+.dropdown ul{
     background: rgb(49,49,49);
     display:none;   
     position: absolute;   
 }
-.onepage:hover> ul {
+.dropdown:hover> ul {
     display: block;
     width: 180px;
     height: auto;
 }
-.onepage ul li{
+.dropdown ul li{
     padding: 10px 0px;
     margin: 10px;
 }
