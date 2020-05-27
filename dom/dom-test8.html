@@ -1,0 +1,32 @@
+<!--
+    * File Name : bootstrap.html v0.1.0
+    * Update : 2020.05.26
+    * Author : decelopern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 문서 객체 및 Date( ) 객체를 이용한 시간 표시. 1초에 한번씩 갱신.(실시간 표시) -->
+    <link rel ="stylesheet" href="./vendor/normalize.css">
+    <meta charset="8">
+    <meta name="viewport" content="widch=device-width, initiai-scale-1.0">
+    <meta http-equiv="X-UA-Compatible"  content="ie=edge">
+    <title>dom-test8</title>
+    <script>
+        window.onload = function(){
+            // 문서 객체 선택
+           var clock = document.getElementById('clock');
+           // 1초마다 함수 실행
+           setInterval(function(){ 
+               var now = new Date();
+               clock.innerHTML = now.toString();
+           }, 1000);
+        };
+           
+    </script>
+</head>
+<body>
+    <h1 id="clock"></h1>
+</body>
+</html>
