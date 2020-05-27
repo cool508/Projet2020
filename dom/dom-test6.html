@@ -1,0 +1,29 @@
+<!--
+    * File Name : bootstrap.html v0.1.0
+    * Update : 2020.05.26
+    * Author : decelopern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 문서 객체 조작. Placehold.com의 리소스 연습 -->
+    <link rel ="stylesheet" href="./vendor/normalize.css">
+    <meta charset="8">
+    <meta name="viewport" content="widch=device-width, initiai-scale-1.0">
+    <meta http-equiv="X-UA-Compatible"  content="ie=edge">
+    <title>dom-test6</title>
+    <script>
+        window.onload = function(){
+            var image = document.getElementById('image');
+            image.src = "https://via.placeholder.com/305x231";
+            image.width = 300;
+            image.height = 200;
+            image.alt ="placeholder 이미지"
+        };
+    </script>
+</head>
+<body>
+    <img id="image">
+</body>
+</html>

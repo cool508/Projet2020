@@ -1,0 +1,29 @@
+<!--
+    * File Name : bootstrap.html v0.1.0
+    * Update : 2020.05.26
+    * Author : decelopern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel ="stylesheet" href="./vendor/normalize.css">
+    <!-- SPA의 이해 및 <h1~6> 자동생성 -->
+    <meta charset="8">
+    <meta name="viewport" content="widch=device-width, initiai-scale-1.0">
+    <meta http-equiv="X-UA-Compatible"  content="ie=edge">
+    <title>dom-test4</title>
+    <script>
+        window.onload = function(){
+            var output = '';
+            for (var i =1; i < 7; i++){
+                output += '<h'+i+'> Header - '+ i + '</h1>'; 
+            }
+            document.body.innerHTML = output;
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>

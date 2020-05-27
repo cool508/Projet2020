@@ -1,0 +1,29 @@
+<!--
+    * File Name : bootstrap.html v0.1.0
+    * Update : 2020.05.26
+    * Author : decelopern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel ="stylesheet" href="./vendor/normalize.css">
+    <!-- document.getElementById 실습 -->
+    <meta charset="8">
+    <meta name="viewport" content="widch=device-width, initiai-scale-1.0">
+    <meta http-equiv="X-UA-Compatible"  content="ie=edge">
+    <title>dom-test2</title>
+    <script>
+        window.onload = function(){
+           var header = document.getElementById('header');
+           header.style.color = 'blue';
+           header.style.background = 'red';
+           header.innerHTML='자바스크립트 DON 연습 중'
+        };
+    </script>
+</head>
+
+<body>
+    <h1 id="header">여기 아무 것도 없어도 문장이 삽입됨.</h1>
+</body>
+</html>
