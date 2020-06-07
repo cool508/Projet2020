@@ -1,5 +1,16 @@
 # Projet2020 - 배종범
-
+## 6월 6일 jQuery 페이지
+attr( )메소드를 이용한 문서 객체의 속성 조작. 속성값 추출 및 지정.<br>
+css( )메소드를 이용한 스타일 조작.<br>
+html( ), text( ) 메소드를 이용한 문서 객체 내부 글자 조작.<br>
+addClass( ), removeClass( ), toggleClass( ) 메소드를 이용한 클래스의 추가, 제거, 전환.<br>
+jQuery의 이벤트 연결.<br>
+jQuery의 애니메이션 효과.<br>
+jQuery의 문서 객체의 생성과 추가.<br>
+jQuery를 이용한 무한 스크롤의 구현.<br>
+jQuery plugins활용 : lightbox<br>
+jQuery plugins활용 : masonry (무한 스크롤과 접목하는 법 질문)<br>
+jQuery plugins활용 : covid-19 (구현이 잘 안됨 질문 하기.)<br>
 ## 5월 27일 dom 페이지
 document.querySelector( ) 실습<br>
 document.getElementById( ) 실습<br>
